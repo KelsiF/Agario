@@ -1,0 +1,21 @@
+local turn_speed = 0.1
+
+
+local acceleration = 100
+
+function init(self)
+
+	msg.post(".", "acquire_input_focus")
+
+	self.velocity = vmath.vector3()
+	self.acceleration = vmath.vector3()
+
+	self.input = vmath.vector3()
+
+end
+
+function update(self, dt)
+
+	
+
+end
